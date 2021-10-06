@@ -1,0 +1,12 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@itemColor: @white;
+@menuBackground: @primaryColor;
+@menuBorderColor: @secondaryColor;
+@menuBorderWidth: 2px;
+@hoveredItemColor: @secondaryColor;
+@activeItemColor: @secondaryColor;
+@selectedColor: @secondaryColor;
+@itemFontSize: @large;

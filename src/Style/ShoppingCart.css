@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.productTitle {
+  font-size: 1.3rem;
+  max-width: 300px;
+  margin-right: 20px;
+
+}
+
+.buttonsQuantity {
+  margin: 0;
+}
+
+.shoppingProductDiv {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-right: 20px;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.checkoutDiv {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.checkoutImg {
+  width: 70px;
+  margin-right: 30px;
+}
+
+.checkoutTitle {
+  font-size: 1.1rem;
+  max-width: 290px;
+  margin-right: 30px;
+}
+
+.checkoutSection {
+  border: 2px solid black;
+  margin: 10px 0 30px;
+  padding: 15px 10px;
+}
+
+.checkoutSection > * {
+  margin-left: 15px;
+}
+
+.checkoutSection label {
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+
+.checkoutPrice {
+  font-size: 1.2rem;
+  margin: 10px 0 0 15px;
+}
+
+.checkoutSection h2 {
+  margin: 0 0 15px 15px;
+}
+
+.closeIcon {
+  margin: 0;
+  color:black;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.shoppingProductImg {
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+}
