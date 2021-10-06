@@ -1,0 +1,21 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+@promptColor: red;
+@resultTextColor: @white;
+@resultsBackground: @black;
+@resultTitleColor: @white;
+@resultActiveTitleColor: @white;
+
+@resultHoverBackground: #808080;
+@resultActiveBackground: #808080;
+@resultHoverColor: red;
+
+@resultsBorder: 2px solid red;
+
+
+
+
+
+
