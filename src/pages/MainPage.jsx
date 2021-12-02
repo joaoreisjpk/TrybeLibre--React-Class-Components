@@ -10,7 +10,7 @@ export default class MainPage extends React.Component {
   constructor() {
     super();
     this.state = {
-      categoriaId: '',
+      categoriaId: 'MLB1000',
       query: '',
       categoriaList: [],
       productList: [],
@@ -21,6 +21,7 @@ export default class MainPage extends React.Component {
 
   filterList = (id) => {
     this.setState({ categoriaId: id }, () => this.handleClick());
+    console.log(id);
   }
 
   categoryList = () => {
