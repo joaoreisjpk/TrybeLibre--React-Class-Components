@@ -7,7 +7,7 @@ export default class Categories extends Component {
     return (
       <div className="item">
         <button
-          type
+          type="button"
           className="ui blue basic button"
           onClick={ () => onClick(categoria.id) }
           style={{padding: '8px', margin: '-4px 0'}}

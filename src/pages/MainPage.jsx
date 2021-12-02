@@ -21,7 +21,6 @@ export default class MainPage extends React.Component {
 
   filterList = (id) => {
     this.setState({ categoriaId: id }, () => this.handleClick());
-    console.log(id);
   }
 
   categoryList = () => {
