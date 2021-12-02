@@ -10,8 +10,8 @@ export default class MainPage extends React.Component {
   constructor() {
     super();
     this.state = {
-      categoriaId: 'MLB1000',
-      query: '',
+      categoriaId: '',
+      query: 'notebook',
       categoriaList: [],
       productList: [],
       cartLength: undefined,
